@@ -1,8 +1,12 @@
-version: 0.0
+version: 1.0
 os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+  - source: images/yoda.jpg
+    destination: /var/www/html/images/
+  - source: images/ksmith.jpg
+    destination: /var/www/html/images
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
