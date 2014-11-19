@@ -1,4 +1,4 @@
 #!/bin/bash
 yum install -y httpd
-mkdir /var/www/html/images
+mkdir -p /var/www/html/images
 
